@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SimplifyOS</title>
+<title>Coming Soon</title>
 <style>
   body {
     background: #00091B;
@@ -14,7 +14,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
   }
 
   @keyframes fadeIn {
@@ -29,7 +28,8 @@
   }
 
   .wrapper {
-    animation: fadeIn 1000ms ease;
+    animation: fadeIn 1000ms ease forwards;
+    text-align: center; /* Ensure text is centered */
   }
 
   h1 {
@@ -41,4 +41,20 @@
   }
 
   .dot {
-    color
+    color: #4FEBFE;
+  }
+
+  p {
+    margin: 18px;
+    font-family: "Brush Script MT", cursive;
+    font-weight: normal;
+  }
+</style>
+</head>
+<body>
+  <div class="wrapper">
+    <h1>coming soon<span class="dot">.</span></h1>
+    <p>this version isn't yet publicly available :(</p>
+  </div>
+</body>
+</html>
